@@ -48,11 +48,11 @@
         <allow-intent href="itms-apps:*" />
     </platform>
 
-    <plugin name="cordova-plugin-device" source="pgb"  />
-    <plugin name="cordova-plugin-geolocation" source="pgb" />
-    <plugin name="cordova-plugin-inappbrowser" source="pgb" />
-    <plugin name="cordova-plugin-network-information" source="pgb" />
-    <plugin name="cordova-plugin-vibration" source="npm"  />
+    <gap:plugin name="cordova-plugin-device" source="npm"  />
+    <gap:plugin name="cordova-plugin-geolocation" source="npm" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <gap:plugin name="cordova-plugin-network-information" source="npm" />
+    <gap:plugin name="cordova-plugin-vibration" source="npm"  />
     
     <plugin spec="https://github.com/katzer/cordova-plugin-local-notifications.git" source="git" />
     <plugin spec="https://github.com/katzer/cordova-plugin-background-mode.git" source="git" />
