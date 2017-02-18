@@ -31,7 +31,7 @@
     </author>
     <content src="index.html" />
 	<!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
-    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <gap:plugin name="cordova-plugin-whitelist" spec="1" />
 
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -48,14 +48,14 @@
         <allow-intent href="itms-apps:*" />
     </platform>
 
-    <gap:plugin name="cordova-plugin-device" source="pgb"  />
-    <gap:plugin name="cordova-plugin-geolocation" source="pgb" />
-    <gap:plugin name="cordova-plugin-inappbrowser" source="pgb" />
-    <gap:plugin name="cordova-plugin-network-information" source="pgb" />
+    <gap:plugin name="cordova-plugin-device" source="npm"  />
+    <gap:plugin name="cordova-plugin-geolocation" source="npm" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <gap:plugin name="cordova-plugin-network-information" source="npm" />
     <gap:plugin name="cordova-plugin-vibration" source="npm"  />
     
-    <plugin spec="https://github.com/katzer/cordova-plugin-local-notifications.git" source="git" />
-    <plugin spec="https://github.com/katzer/cordova-plugin-background-mode.git" source="git" />
+    <gap:plugin spec="https://github.com/katzer/cordova-plugin-local-notifications.git" source="git" />
+    <gap:plugin spec="https://github.com/katzer/cordova-plugin-background-mode.git" source="git" />
 
     <!--<plugin name="cordova-plugin-splashscreen" source="pgb"  />-->
     <preference name="android-build-tool" value="gradle" />
